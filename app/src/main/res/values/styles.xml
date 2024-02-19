@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.M2_Project" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme colors. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/primaryTextColor</item>
+        <!-- Secondary color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/statusBarColor</item>
+        <!-- Customize other attributes like text appearance, etc. -->
+    </style>
+
+    <!-- Example style for a button that uses Material Components. -->
+    <style name="Widget.M2_Project.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/buttonTextColor</item>
+        <!-- Customize other button attributes here. -->
+    </style>
+
+</resources>
